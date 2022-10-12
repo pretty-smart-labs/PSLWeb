@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
         <Link href='/'>
           <h1 style={{ color: `${textColor}` }} className='font-bold text-4xl'>
-            Captur
+            Pretty smart labs
           </h1>
         </Link>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
@@ -40,10 +40,10 @@ const Navbar = () => {
             <Link href='/'>Home</Link>
           </li>
           <li className='p-4'>
-            <Link href='/#gallery'>Gallery</Link>
+            <Link href='/#gallery'>Chip Link</Link>
           </li>
           <li className='p-4'>
-            <Link href='/work'>Work</Link>
+            <Link href='/work'>Music Not Impossible</Link>
           </li>
           <li className='p-4'>
             <Link href='/contact'>Contact</Link>
@@ -71,10 +71,10 @@ const Navbar = () => {
               <Link href='/'>Home</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/#gallery'>Gallery</Link>
+              <Link href='/#ChipLink'>ChipLink</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/work'>Work</Link>
+              <Link href='/#MNI'>MNI</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
               <Link href='/contact'>Contact</Link>
